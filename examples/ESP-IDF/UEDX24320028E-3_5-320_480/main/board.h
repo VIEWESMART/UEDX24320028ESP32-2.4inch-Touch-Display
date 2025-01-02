@@ -28,15 +28,15 @@
 #include "lv_demos.h"
 
 //*************************************************** */
-#define GC 0   //2.4/2.8/3.5 low resolution set 1
-#define ST 1   //3.5 3.5inch high resolution set 1
+#define GC 1   //2.4/2.8/3.5 low resolution set 1
+#define ST 0   //3.5 3.5inch high resolution set 1
 
 /*select board*/
 #if GC
-#define VIEWE_24_L35    0  //2.4inch Display and 3.5inch low resolution Display
-#define VIEWE_28        1  //2.8inch Display
+#define VIEWE_24_L35    1  //2.4inch Display and 3.5inch low resolution Display
+#define VIEWE_28        0  //2.8inch Display
 #elif ST
-#define VIEWE_H35       1  //3.5inch high resolution Display(320*480)
+#define VIEWE_H35       0  //3.5inch high resolution Display(320*480)
 #endif
 
 #if ST
