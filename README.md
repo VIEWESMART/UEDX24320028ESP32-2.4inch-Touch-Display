@@ -21,7 +21,7 @@
 ## Version iteration:
 |   Development board Version   |  Screen size   |   Resolution  | Update date        |Update description|
 | :-------------------------------: | :-------------------------------: | :-------------------------------: | :-------------------------------: |:-------------------------------: |
-| UEDX24320028E-WB-A V1.1 | 2.4ich |  320*480  |2024-12-23      | Original version   |
+| UEDX24320028E-WB-A V1.1 | 2.4ich |  240*320  |2024-12-23      | Original version   |
 
 ## PurchaseLink
 
