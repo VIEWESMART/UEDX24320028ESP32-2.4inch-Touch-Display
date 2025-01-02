@@ -1,7 +1,7 @@
-<h1 align = "center">UEDX24320028ESP32-3.5inch-320_480-Display</h1>
+<h1 align = "center">UEDX24320028ESP32-2.4inch-Touch-Display</h1>
 
 <p align="center" width="80%">
-    <img src="image/3.5_h.png" alt="">
+    <img src="image/2.4.jpg" alt="">
 </p>
 
 ## **English | [中文](./README_CN.md)**
@@ -21,7 +21,7 @@
 ## Version iteration:
 |   Development board Version   |  Screen size   |   Resolution  | Update date        |Update description|
 | :-------------------------------: | :-------------------------------: | :-------------------------------: | :-------------------------------: |:-------------------------------: |
-| UEDX24320028E-WB-A V1.1 | 3.5ich |  320*480  |2024-12-23      | Original version   |
+| UEDX24320028E-WB-A V1.1 | 2.4ich |  320*480  |2024-12-23      | Original version   |
 
 ## PurchaseLink
 
@@ -41,7 +41,7 @@
 
 ## Describe
 
-UEDX24320028ESP32-3.5inch-320_480-Display is a development board with square 3.5inch320 * 480 resolution display, based on ESP32S3, suitable for the development of microcontroller projects with display.
+UEDX24320028ESP32-2.4inch-Touch-Display is a development board with square 2.4inch 240*320 resolution display, based on ESP32S3, suitable for the development of microcontroller projects with display.
 
 
 ## Module
@@ -55,10 +55,10 @@ UEDX24320028ESP32-3.5inch-320_480-Display is a development board with square 3.5
 
 ### 2. Screen
 
-* Size: 3.5-inch IPS screen
-* Resolution: 320x480px
+* Size: 2.4-inch IPS screen
+* Resolution: 240x320px
 * Screen type: IPS
-* Driver chip: ST7365P
+* Driver chip: GC9307
 * Compatibility library:  ESP32_Display_Panel
 * Bus communication protocol: SPI
 
@@ -77,16 +77,14 @@ UEDX24320028ESP32-3.5inch-320_480-Display is a development board with square 3.5
 | [ESP-IDF](./examples/ESP-IDF) | `[ESP-IDF V5.1/5.2/5.3]` | idf driver example code |  |
 | [PanelTest](./examples/PanelTest) |`[Arduino IDE][esp32_v2.0.14]` | Product factory original testing |  |
 | [Porting](./examples/Porting) | `[Arduino IDE][esp32_v3.0 above]` | LVGL example code |  |
-| [WiFiClock](./examples/WiFiClock) | `[Arduino IDE][esp32_v2.0.14]` | SquareLine porting example for Arduino |  |
 | [PlatformIO](./examples/PlatformIO) | `[Platformio IDE]` |  |  |
 
 
 | Firmware | Description | Picture |
 | ------  | ------  | ------ |
-| [ESP-IDF](./firmware/[T-Display-S3-AMOLED-1.43_V1.0][Original_Test]_firmware_V1.0.0.bin) | Original |  |
-| [PanelTest](./firmware/[T-Display-S3-AMOLED-1.43_V1.0][Light_Sleep_Wake_Up]_firmware_V1.0.0.bin) | Original |  |
-| [Porting](./firmware/[T-Display-S3-AMOLED-1.43_V1.0][Deep_Sleep_Wake_Up]_firmware_V1.0.0.bin) | Original |  |
-| [WiFiClock](./firmware/[T-Display-S3-AMOLED-1.75_V1.0][Original_Test_H0175Y003AM]_firmware_V1.0.2.bin) | Original |  |
+| [ESP-IDF]() | Original |  |
+| [PanelTest]() | Original |  |
+| [Porting]() | Original |  |
 
 ### PlatformIO
 1. Install[VisualStudioCode](https://code.visualstudio.com/Download),Choose installation based on your system type.
