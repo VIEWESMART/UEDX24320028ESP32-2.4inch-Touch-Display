@@ -1,7 +1,7 @@
 <h1 align = "center">UEDX24320028ESP32-2.4inch-Touch-Display</h1>
 
 <p align="center" width="80%">
-    <img src="image/2.4.png" alt="">
+    <img src="image/2.4.jpg" alt="">
 </p>
 
 ## **English | [中文](./README_CN.md)**
