@@ -1,9 +1,9 @@
 <h1 align = "center">VIEWE ESP32-S3 Smart Display Quick Guide</h1>
 
-<p align="center" width="80%">
-    <img src="image/3.5.png" alt="">
-    <h1 style="font-size: 18px;">Model: UEDX24320035E-WB-A</h1>
-</p>
+<div align="center">
+    <img src="image/2.4.jpg" alt="">
+    <h1 style="font-size: 18px;">Model: UEDX24320024E-WB-A</h1>
+</div>
 
 * **[中文版](./README_CN.md)**
 
@@ -37,7 +37,7 @@
 
 | Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
 | :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| UEDX24320035E-WB-A | ESP32S3R8 |   16M   | 8M (Octal SPI) | [VIEWE Mall](https://viewedisplay.com/product/esp32-3-5-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/)  |
+| UEDX24320035E-WB-A | ESP32S3R8 |   16M   | 8M (Octal SPI) | [VIEWE Mall](https://viewedisplay.com/product/esp32-2-4-inch-240x320-rgb-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/)  |
 
 ## Hardware Overview
 
@@ -50,13 +50,13 @@
 
 ### 2. Screen
 
-* Size: 2.8-inch IPS screen
+* Size: 2.4-inch IPS screen
 * Resolution: 240x320px
 * Screen type: IPS
 * Driver chip: GC9307
 * Compatibility library:  ESP32_Display_Panel (>= 1.0.0)
 * Bus communication protocol: SPI
-* For more details：[Display Datasheet](information/UE035QV-RB40-A120B.pdf)
+* For more details：[Display Datasheet](information/UE024QV-RB40-A038A.pdf)
 
 ### 3. Touch
 
@@ -98,7 +98,7 @@
 4. Open the example: `ESP32_Display_Panel`-> `examples` -> `arduino` -> `gui` -> `lvgl_v8`.
 5. Configure the `esp_panel_board_supported_conf.h` file:
     * Enable the macro: `#define ESP_PANEL_BOARD_DEFAULT_USE_SUPPORTED  (1)`
-    * Uncomment the corresponding screen model definition: `#define BOARD_VIEWE_UEDX24320035E_WB_A`
+    * Uncomment the corresponding screen model definition: `#define BOARD_VIEWE_UEDX24320024E_WB_A`
 6. Select the correct settings in the Tools menu, as shown in the table below:
 #### ESP32-S3
 | Setting                               | Value                                 |
@@ -201,9 +201,9 @@
 </p>
 
 ## Information
-[products specification](information/UEDX24320035E-WB-A%20V1.2%20SPEC.pdf)
+[products specification](information/UEDX24320024E-WB-A%20V1.0%20SPEC.pdf)
 
-[Display Datasheet](information/UE035QV-RB40-A120B.pdf)
+[Display Datasheet](information/UE024QV-RB40-A038A.pdf)
 
 [Touch IC](information/DS_CHSC6540_V1.0%20Datasheet.pdf)
 
