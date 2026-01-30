@@ -277,7 +277,7 @@ Examples are available in the [GitHub Repository](examples).
 </p>
 
 ## 6. Technical Support
-- GitHub Repository: [https://github.com/VIEWESMART/SmartRing-Plus](https://github.com/VIEWESMART/SmartRing-Plus)
+- GitHub Repository: [https://github.com/VIEWESMART/UEDX24320028ESP32-2.4inch-Touch-Display](https://github.com/VIEWESMART/UEDX24320028ESP32-2.4inch-Touch-Display)
 - Email: smartrd1@viewedisplay.com
 - QQ Technical Exchange Group: 1014311090
 - WhatsApp Business Account: [Contact via QR Code](image/Whatsapp.png)
