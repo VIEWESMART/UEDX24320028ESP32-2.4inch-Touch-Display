@@ -133,7 +133,7 @@ Examples are available in the [GitHub Repository](examples).
 ### 3.2 Getting Started
 
 #### 3.2.1 Preparation
-* **Hardware**: UEDX80480070E-WB-A Board, USB-C Cable.
+* **Hardware**: UEDX24320024E_WB_A Board, USB-C Cable.
 * **Software**: VS Code (ESP-IDF v5.3+) or Arduino IDE (v2.0+) or VS Code (PlatformIO).
 * **Library**: The following libraries are needed for Arduino IDE and PlatformIO
 
