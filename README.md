@@ -1,11 +1,11 @@
 <h1 align = "center">VIEWE ESP32-S3 Smart Display Quick Guide</h1>
 
-<div align="center">
-    <img src="image/2.4.jpg" alt="">
-    <h1 style="font-size: 18px;">Model: UEDX24320024E-WB-A</h1>
-</div>
-
 * **[中文版](./README_CN.md)**
+
+<div align="center">
+    <h1 style="font-size: 18px;">Model: UEDX24320024E-WB-A</h1>
+    <img src="image/2.4.jpg" alt="">
+</div>
 
 
 ## PurchaseLink
@@ -49,8 +49,9 @@ The board features a high-speed **SPI Interface** for the display, ensuring smoo
 ### 2.1 Module Overview
 The detailed component layout is shown below:
 <p align="center" width="100%">
-    <img src="image/moudle.png" alt="example">
+    <img src="image/moudle.jpg" alt="example">
 </p>
+
 | No. | Component | Description |
 | :--- | :--- | :--- |
 | **①** | **ESP32-S3-N16R8** | Main SoC (16MB Flash / 8MB PSRAM). |
