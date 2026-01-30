@@ -62,7 +62,7 @@ The detailed component layout is shown below:
 | **⑦** | **BOOT Button** | Press during power-on to enter Download Mode. |
 | **⑧** | **RESET Button** | Hardware System Reset. |
 | **⑨** | **RGB LED** | Magic color light with built-in WS2812B. |
-| **⑩** | **RESET Button** | Hardware System Reset. |
+| **⑩** | **Buzzer** | - |
 | **⑪ ⑫** | **Expansion Header** | GPIOs, 5V, 3.3V, GND for external sensors. |
 
 ### 2.2 GPIO Definition (Pinout)
