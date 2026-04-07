@@ -4,7 +4,8 @@
 
 <div align="center">
     <h1 style="font-size: 18px;">Model: UEDX24320024E-WB-A</h1>
-    <img src="image/2.4.jpg" alt="">
+    <img src="image/2.4.png" alt="">
+
 </div>
 
 
