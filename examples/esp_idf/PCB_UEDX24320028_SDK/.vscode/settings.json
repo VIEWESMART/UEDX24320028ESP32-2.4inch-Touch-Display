@@ -9,9 +9,8 @@
         "lvgl.h": "c"
     },
     "idf.adapterTargetName": "esp32s3",
-    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.3/",
-    "idf.toolsPathWin": "D:\\Espressif",
-    "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
-    "idf.portWin": "COM48",
+    "idf.currentSetup": "D:\\idf\\.espressif\\v5.5.4\\esp-idf",
+    "idf.customExtraVars": {},
+    "idf.portWin": "COM44",
     "idf.flashType": "UART"
 }
